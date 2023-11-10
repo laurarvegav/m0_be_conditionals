@@ -102,7 +102,7 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-puts loves_to_play && loves_treats
+puts "Does the dog loves to play and loves treats? #{loves_to_play && loves_treats}"
 
 # Determine if the dog loves to play and loves the dog park
 puts loves_to_play && loves_dog_park
