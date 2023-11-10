@@ -18,7 +18,7 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
+puts "Is number_teachers greater than number_students?  #{number_teachers > number_students}"
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
