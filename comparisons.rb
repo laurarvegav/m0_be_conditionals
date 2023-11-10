@@ -102,15 +102,28 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+if age <= 1
+    category_of_age = "puppy"
+elsif age > 1 && age < 5
+    category_of_age = "young"
+else age >= 5
+    category_of_age = "senior"
+end
+
+puts loves_to_play && category_of_age=="puppy"
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I invented categories to sort dog's ages, if a dog's age is less than or 
+#   equal to 1, the variable category_of_age will be "puppy", if the dog's age is less 
+#   than 5, the variable category_of_age will be "young" and if the dog's age is greater 
+#   than or equal to 5, the dog is a senior. So the condition to determine comes to if the
+#   dog loves to play and it's category of age is "puppy".
