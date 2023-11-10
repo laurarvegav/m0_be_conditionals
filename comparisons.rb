@@ -105,10 +105,10 @@ age = 1
 puts "Does the dog loves to play and loves treats? #{loves_to_play && loves_treats}"
 
 # Determine if the dog loves to play and loves the dog park
-puts loves_to_play && loves_dog_park
+puts "Does the dog loves to play and loves the dog park? #{loves_to_play && loves_dog_park}"
 
 # Determine if the dog loves to play or loves the dog park
-puts loves_to_play || loves_dog_park
+puts "Does the dog loves to play or loves the dog park? #{loves_to_play || loves_dog_park}"
 
 # Determine if the dog loves to play and is a puppy
 if age <= 1
@@ -119,7 +119,7 @@ else age >= 5
     category_of_age = "senior"
 end
 
-puts loves_to_play && category_of_age=="puppy"
+puts "Does the dog loves to play and is a puppy? #{loves_to_play && category_of_age=="puppy"}"
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: I invented categories to sort dog's ages, if a dog's age is less than or 
