@@ -34,6 +34,7 @@ puts "Is number_teachers not equal to number_students? #{number_teachers != numb
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20? #{number_students >= 20}"
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
