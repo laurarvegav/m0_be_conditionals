@@ -27,7 +27,19 @@ end
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
 
+weather = "icy"
 
+if weather == "sunny"
+  p "sunscreen"
+elsif weather == "rainy"
+  p "umbrella"
+elsif weather == "snowy"
+  p "coat"
+elsif weather == "icy"
+  p "yak traks"
+else
+  p "good to go!"
+end
 ##################
 # Using the num_quarters variable defined below, determine
 # if you have enough money to buy a gumball. A gumball costs
