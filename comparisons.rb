@@ -18,7 +18,7 @@ string_teachers = "4"
 numberDogs = 0
 
 # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?  #{number_teachers > number_students}"
+puts "Is number_teachers greater than number_students? #{number_teachers > number_students}"
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
@@ -42,7 +42,7 @@ puts "Is number_students greater than or equal to 21? #{number_students >= 21}"
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-puts "Is number_students less than or equal to 20? #{number_students <= 20?}"
+puts "Is number_students less than or equal to 20? #{number_students <= 20}"
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
@@ -61,21 +61,26 @@ puts "Is number_students less than or equal to 21? #{number_students <= 21}"
 
 puts 4 < 9
 #YOU DO: Explain.
+puts "Evaluates if 4 is less than 9, resulting in true"
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+puts "Assigned the integer 3 to the variable books, evaluates if 4 is less than books, resulting in false"
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+puts "Assigned the integer 6 to the variable friends and the integer 2 to the variable of siblings
+and then evaluates if friends is bigger than siblings, resulting in true"
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+puts "Assigned the number 9 to the variable attendees and the number 8 to the variable meals, evaluates
+if attendees is not equal to meals, resulting in true"
 
 #-------------------
 # PART 3: Logical Operators
