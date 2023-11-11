@@ -11,3 +11,11 @@ strike_one = "Fizz"
 strike_two = "Buzz"
 # number_strikes will be a multiple of 3 when the result of 
 # numer_strikes divided in 3 is an integer. 
+
+if (number_strikes/3).class == Integer && (number_strikes/5).class == Integer
+    puts "#{strike_one}#{strike_two}" 
+  elsif (number_strikes/3).class == Integer 
+      puts strike_one
+  elsif (number_strikes/5).class == Integer 
+      puts strike_two
+  end
