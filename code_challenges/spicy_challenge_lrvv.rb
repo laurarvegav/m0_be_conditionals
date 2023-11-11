@@ -21,3 +21,15 @@ strike_two = "Buzz"
 #   end
 #   puts (number_strikes/5).class
 # Did not work, when ruby divides it does not show the decimals.
+
+# I found hat the operator % shows only the decimals of a division
+
+if ((number_strikes % 3 != 0) && (number_strikes % 5 != 0))
+    puts "#{strike_one}#{strike_two}"
+elsif number_strikes % 3 != 0
+    puts strike_one
+elsif number_strikes % 5 != 0
+    puts strike_two
+else 
+    puts numer_strikes
+end
